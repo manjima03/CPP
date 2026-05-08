@@ -5,7 +5,7 @@
             "name": "Debug current cpp file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${fileDirname}/build/${fileBasenameNoExtension}",
             "args": [],
             "cwd": "${fileDirname}",
             "stopAtEntry": false,

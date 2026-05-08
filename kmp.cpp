@@ -31,7 +31,7 @@ vector<int> kmpAlg(string& str, string& pat)
     int n=pat.size();
     vector<int> res;
     vector<int> lps=buildLPS(pat);
-
+    for(int x: lps) cout<<x<<" ";
     int i=0;
     int j=0;
 
